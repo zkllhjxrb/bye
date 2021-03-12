@@ -1,5 +1,5 @@
 def read():
     from skimage.io import imread
     from json import load
-    
-    data = {}
+
+    raw_data = load(path)
